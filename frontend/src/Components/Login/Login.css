@@ -1,0 +1,45 @@
+.service-login {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    min-height: calc(100vh - (94.8px + 58.8px));
+}
+.service-login-container {
+    width: 32%;
+}
+.service-title {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-align: left;
+}
+.service-login-text {
+    color: #7ebf1b;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-group .form-control {
+    width: 100% !important;
+    border-radius: 5px !important;
+    font-size: 15px;
+    color: #000 !important;
+}
+.input-group .form-control::placeholder {
+    color: #a8a8a8;
+}
+.error {
+    font-family: "Port Lligat Sans", sans-serif;
+    font-style: normal;
+    color: red;
+}
+#login-btn {
+    font-family: "Port Lligat Sans", sans-serif;
+    font-style: normal;
+}

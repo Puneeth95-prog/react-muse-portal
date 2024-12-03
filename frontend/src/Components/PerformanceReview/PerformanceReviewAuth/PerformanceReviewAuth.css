@@ -1,0 +1,45 @@
+.performance-review {
+    min-height: calc(100vh - (94.8px + 58.8px));
+}
+.performance-review-title {
+    font-weight: 600;
+}
+.performance-review-title {
+    padding: 30px 0px 40px;
+}
+
+.form-group {
+    padding-bottom: 15px;
+}
+.forgot-password-link {
+    color: #0070f2;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.forgot-password-link:hover {
+    text-decoration: underline;
+}
+#review-login-btn, #review-register-btn {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    opacity: 0.8;
+    font-family: 'Port Lligat Sans';
+}
+section.performance-review-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.review-login-container, .review-register-container {
+    min-width: 40%;
+}
+.review-login-container::after {
+    content: "";
+    border-right: 1px solid #000;
+    position: absolute;
+    top: 0;
+    left: 52%;
+    height: 100%;
+}

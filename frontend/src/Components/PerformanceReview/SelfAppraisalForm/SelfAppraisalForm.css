@@ -1,0 +1,83 @@
+.self-appraisal {
+    padding: 30px 130px;
+    min-height: calc(100vh - (94.8px + 58.8px));
+}
+.appraisal-table-head {
+    width: 100%;
+    background-color: #7ebf1b;
+    height: 38px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    font-size: 25px;
+}
+.data-first {
+    background-color: #dae590;
+    width: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    font-weight: 500!important;
+}
+.data-second {
+    background-color: #fff;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    font-weight: 500!important;
+}
+.data-third {
+    background-color: #bfd34d;
+    padding-left: 15px;
+    padding-right: 25px;
+    font-size: 16px;
+    font-weight: 500!important;
+}
+.footer-right-data {
+    width: 80%;
+    font-weight: 500;
+}
+.appraisal-table-footer-text {
+    width: 20%;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+.appraisal-submit-btn {
+    width: 10%;
+    background-color: #7ebf1b;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.appraisal-submit-btn:hover {
+    opacity: 0.9;
+}
+.rating_error {
+    color: #fff;
+}
+.form-submiited-text {
+    color: #fff;
+    text-align: end;
+    font-size: 22px;
+}
+.average-rating {
+    position: fixed;
+    top: 40%;
+    right: 3%;
+    background-color: #ddd;
+    padding: 6px 8px;
+    font-size: 20px;
+}
+.form-control {
+    border: 1px solid #bbb !important;
+    background: none;
+}
+.form-control::placeholder {
+    color: #aaa !important;
+}

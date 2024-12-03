@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .App {
+    position: relative;
+} */
+body {
+    font-family: "Pompiere", sans-serif !important;
+    font-style: normal;
+}
+.sub-title {
+    font-weight: 600;
+}
+.port-lligat {
+    font-family: "Port Lligat Sans", sans-serif;
+    font-style: normal;
+}
+.color-green {
+    color: #89c42e;
+}
+.review-logintitle, .review-regtitle {
+    font-size: 24px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}

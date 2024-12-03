@@ -1,0 +1,31 @@
+.admin-dashboard {
+    min-height: calc(100vh - (94.8px + 58.8px));
+}
+#admin-dashboard {
+    padding: 20px 65px;
+}
+.complaints-title {
+    font-size: 26px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+.admin-details {
+    padding-bottom: 25px;
+}
+.admin-info {
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 5px;
+}
+table tr th {
+    font-weight: 500;
+}
+table th, table td {
+    padding: 8px;
+}
+.edit-complaint-status {
+    text-decoration: none;
+}
+.edit-complaint-status:hover {
+    text-decoration: underline;
+}

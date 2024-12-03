@@ -1,0 +1,38 @@
+
+.intranet-blocks {
+    max-width: 80%;
+    margin: auto;
+    min-height: calc(100vh - (94.8px + 58.8px));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.intranet-home-icons {
+    width: 55%;
+    display: block;
+    margin: auto;
+}
+.text-block {
+    border: 1px solid #a9b4be;
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    color: #7ebf1b;
+    font-weight: 500;
+    background-color: #fafafa;
+    cursor: pointer;
+    font-size: 15px;
+}
+.text-block:hover {
+    color: #fff;
+    background-color: #7ebf1b;
+}
+.intranet-division {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.intranet-division a {
+    text-decoration: none;
+}

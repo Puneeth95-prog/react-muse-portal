@@ -1,0 +1,25 @@
+.port-lligat {
+    font-weight: 600;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.complaint-dashboard {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 130px;
+    padding: 30px 0;
+}
+.complaint-dashboard h3, #user-designation {
+    padding-bottom: 25px;
+}
+.user-info {
+    font-weight: 400;
+    padding-left: 5px;
+}
+.user-designation {
+    padding-bottom: 20px;
+}
+table {
+    width:92%;
+}

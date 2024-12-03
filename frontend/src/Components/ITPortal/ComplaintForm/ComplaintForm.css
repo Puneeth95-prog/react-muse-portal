@@ -1,0 +1,32 @@
+.service-complaint-container {
+    min-height: calc(100vh - (94.8px + 58.8px));
+    padding-top: 30px;
+    margin-left: 130px;
+    max-width: 50%;
+    position: relative;
+}
+.complaint-form-title {
+    font-weight: 600;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.complaint-form-head {
+    font-size: 24px;
+    font-weight: 700;
+}
+.service-complaint-container h5 {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 600;
+}
+.emp-details {
+    font-weight: 400;
+    font-size: 20px;
+}
+.complaint-form-container {
+    padding-top: 40px;
+}
+#employee-name-input {
+    background-color: #f3f3f3;
+}
+
